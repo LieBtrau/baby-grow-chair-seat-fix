@@ -1,0 +1,20 @@
+<camotics>
+  <!-- Note, all values are in mm regardless of 'units' option. -->
+  <!-- NC Files -->
+  <nc-files>
+    2_drill.nc 2_mill.nc
+  </nc-files>
+
+  <!-- Renderer -->
+  <resolution v='0.46355'/>
+
+  <!-- Workpiece -->
+  <automatic-workpiece v='false'/>
+  <workpiece-max v='(40.1,47.45,0)'/>
+  <workpiece-min v='(-6.1,-6.45,-10)'/>
+
+  <tool_table>
+    <tool length='10' number='1' radius='1.5' shape='CYLINDRICAL' units='MM'/>
+    <tool length='10' number='2' radius='2' shape='CYLINDRICAL' units='MM'/>
+  </tool_table>
+</camotics>
